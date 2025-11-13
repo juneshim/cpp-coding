@@ -17,9 +17,12 @@ int main() {
             A.push_back(n);
         }
     }
+    bool first = true;
     for (int n : A) {
-        if (n != A[0]) cout << ' ';
+        if (!first) cout << ' ';
         cout << n;
+        first = false;
     }
+
     return 0;
 }
