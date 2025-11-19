@@ -15,7 +15,7 @@ int main() {
         } else
         n -= i*6;
         i++;
-    } // 1,7,19,37, 61
+    }
     cout << i << endl;
     return 0;
 }
