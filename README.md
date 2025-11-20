@@ -3,4 +3,3 @@
 
 
 <img src="asset/typing-cat.svg" width="480" alt="Typing cat"/>
-![Typing cat](asset/typing-cat.svg)
