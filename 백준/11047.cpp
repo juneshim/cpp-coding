@@ -7,7 +7,10 @@ int count_coinf(const int *arr, int n, int k) {
     int least_n = 10000000, count = 10000000, idx = 0;
     bool is_amount = false;
     if (idx > n) {return least_n;}
-    if (arr[n-idx] < )
+    if (arr[n-idx] > k) {
+        idx++;
+        
+    }
     if (is_amount && least_n > count) {
         least_n = count;
     }
