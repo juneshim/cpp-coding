@@ -29,6 +29,6 @@ int main() {
     least = 10;
     findf(224, 0, 0);
     cout << least << endl;
-
+    // 이거 dq 문제. 나중에 dq로도 구현해보기
     return 0;
 }
