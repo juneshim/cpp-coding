@@ -30,7 +30,7 @@ void bfs(int x, int y) {
             if (v[nx][ny] == 0) continue;
 
             visited[nx][ny] = true;
-            v[nx][ny] = v[cx][cy] + 1; // 거리 누적
+            v[nx][ny] = v[cx][cy] + 1;
             q.push({nx, ny});
         }
     }
